@@ -2,7 +2,7 @@ name: Testing
 on: [push, pull_request]
 jobs:
   lint:
-    name: ESLint
+    name: Formatting
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -16,3 +16,7 @@ jobs:
         run: npm ci
       - name: format
         run: npm run format
+      - name: commit
+        run: git commit -m "Formatted"
+      - name: push
+        run: git push origin main
