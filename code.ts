@@ -4,3 +4,5 @@
  * @license MIT
  */
 
+console.log("hello");
+console.log("initialising");
