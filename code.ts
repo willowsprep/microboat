@@ -1,6 +1,6 @@
 
 /** * @file code.ts
-* @description main codef
+* @description main code
 * @license MIT
      */
 
