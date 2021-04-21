@@ -1,5 +1,5 @@
 name: Testing
-on: [push, pull_request]
+on: [push]
 jobs:
   lint:
     name: Formatting
@@ -20,11 +20,9 @@ jobs:
         run: git config --global user.email "hi@parthiv.dev"
       - name: username
         run: git config --global user.name "shapedgod"
-      - name: checkout
-        run: git checkout ${GITHUB_REF#refs/heads/}
       - name: add changes
         run: git add .
       - name: commit
         run: git commit -m "Formatted"
       - name: push
-        run: git push origin ${GITHUB_REF#refs/heads/}
+        run: git push origin main
