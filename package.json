@@ -1,0 +1,22 @@
+{
+  "name": "aaadp-microboat",
+  "version": "1.0.0",
+  "description": "💯",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willowsprep/aaadp-microboat.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willowsprep/aaadp-microboat/issues"
+  },
+  "homepage": "https://github.com/willowsprep/aaadp-microboat#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
