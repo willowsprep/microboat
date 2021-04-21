@@ -20,6 +20,8 @@ jobs:
         run: git config --global user.email "hi@parthiv.dev"
       - name: username
         run: git config --global user.name "shapedgod"
+      - name: add changes
+        run: git add .
       - name: commit
         run: git commit -m "Formatted"
       - name: push
