@@ -28,4 +28,4 @@ jobs:
       - name: commit
         run: git commit -m "Formatted"
       - name: push
-        run: git push origin main
+        run: git push -u origin main
