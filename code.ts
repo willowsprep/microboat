@@ -1,6 +1,7 @@
 /**
  * @file code.ts
  * @description main code
+ * @author Parthiv Mothipati <hi@parthiv.dev>
  * @license MIT
  */
 
