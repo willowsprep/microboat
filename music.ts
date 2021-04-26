@@ -1,5 +1,5 @@
 /**
- * @file code.ts
+ * @file music.ts
  * @description main code
  * @author Parthiv Mothipati <hi@parthiv.dev>
  * @license MIT
