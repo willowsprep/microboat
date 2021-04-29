@@ -4,7 +4,7 @@
  * @author Parthiv <hi@parthiv.dev>
  * @license MIT
  */
-
+// Radio message config
 enum RadioMessage {
     message1 = 49434,
     message2 = 1435,
@@ -15,7 +15,8 @@ enum RadioMessage {
 }
 let DebugMode = 0
 let Pitch = 0
-radio.setGroup(0)
+// top secret group
+radio.setGroup(2203)
 radio.setTransmitPower(7)
 basic.showIcon(IconNames.Skull)
 basic.forever(function () {
