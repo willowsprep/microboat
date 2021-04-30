@@ -27,10 +27,10 @@ basic.forever(function () {
             radio.sendNumber(1)
         }
         basic.showLeds(`
-            # . . . #
+            . . # . .
+            . . . # .
             # # # # #
-            . # # # .
-            . # # # .
+            . . . # .
             . . # . .
             `)
     } else if (input.buttonIsPressed(Button.B)) {
