@@ -6,7 +6,7 @@ enum RadioMessage {
 }
 let DebugMode = 0
 let Pitch = 0
-radio.setGroup(0)
+radio.setGroup(160)
 radio.setTransmitPower(7)
 basic.showIcon(IconNames.Skull)
 basic.forever(function () {
