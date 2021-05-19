@@ -1,6 +1,6 @@
 enum RadioMessage {
-    RightOn_Straight = 19294,
     RightOff_LeftTurn = 17706,
+    RightOn_Straight = 19294,
     message1 = 49434
 }
 radio.onReceivedNumber(function (receivedNumber) {
@@ -20,5 +20,6 @@ radio.onReceivedMessage(RadioMessage.RightOn_Straight, function () {
         pins.digitalWritePin(DigitalPin.P0, 1)
     }
 })
-pins.digitalWritePin(DigitalPin.P1, 0)
+radio.setGroup(160)
+pins.digitalWritePin(DigitalPin.P1, 1)
 basic.showIcon(IconNames.TShirt)
