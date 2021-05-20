@@ -1,9 +1,4 @@
-/**
- * @file rightMotor.ts
- * @description the right dc motor for turning
- * @author Parthiv <hi@parthiv.dev>
- * @license MIT
- */
+
 
 pins.digitalWritePin(DigitalPin.P0, 1)
 pins.setPull(DigitalPin.P1, PinPullMode.PullUp)
