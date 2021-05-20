@@ -1,9 +1,4 @@
-/**
- * @file remote.ts
- * @description the remote to control buttons
- * @author Parthiv <hi@parthiv.dev>, Dhruv <dhruvm2027@students.willowsprep.com>
- * @license MIT
- */
+
 // Radio message config
 
 enum RadioMessage {
