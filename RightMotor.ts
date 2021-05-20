@@ -11,7 +11,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     }
 })
 radio.onReceivedMessage(RadioMessage.RightOff_LeftTurn, function () {
-    if (pins.digitalReadPin(DigitalPin.P1) == 0) {
+    if (pins.digitalReadPin(DigitalPin.P1) == 1) {
         pins.digitalWritePin(DigitalPin.P0, 0)
     }
 })
